@@ -1,0 +1,126 @@
+{
+  "brand": {
+    "name": "Dahlia Milano",
+    "tagline": "This is not just a pizza restaurant. This is the coolest place in the city.",
+    "vibe": [
+      "Funny",
+      "Student-friendly",
+      "Party",
+      "International",
+      "Easy",
+      "Not Cheap",
+      "Next Level"
+    ],
+    "archetype": "Cinematic Editorial Nightlife",
+    "theme": "dark"
+  },
+  "colors": {
+    "background": "#0D0C0B",
+    "surface": "#1A1918",
+    "surface_glass": "rgba(26, 25, 24, 0.7)",
+    "text_primary": "#F4F0EA",
+    "text_secondary": "#A39B8F",
+    "accent_primary": "#FF3B22",
+    "accent_secondary": "#F74898",
+    "accent_tertiary": "#FFC01E",
+    "border": "#2E2C2A"
+  },
+  "typography": {
+    "fonts": {
+      "primary_heading": "Bebas Neue",
+      "editorial_accent": "Cormorant Garamond",
+      "body": "Outfit",
+      "playful_script": "Caveat"
+    },
+    "hierarchy": {
+      "h1": "text-5xl md:text-6xl font-black tracking-tighter leading-none uppercase",
+      "h2": "text-4xl md:text-5xl font-bold tracking-tight uppercase",
+      "h3": "text-2xl md:text-3xl font-bold",
+      "body": "text-base md:text-lg text-[#A39B8F] leading-relaxed",
+      "overline": "text-xs md:text-sm uppercase tracking-[0.2em] text-[#FF3B22] font-bold"
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing, Asymmetry, High Contrast. Never fill the screen uniformly. Use bento grids with empty spaces.",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_gap": "py-24 md:py-32",
+    "grid_system": "Bento 'Tetris' Grid (Mode A) for showcase, dense grids for menus."
+  },
+  "motion_guidelines": {
+    "scroll": "Lenis for smooth scrolling (MANDATORY).",
+    "reveals": "Framer Motion for staggered text reveals (upward mask) and image scale-ins.",
+    "hover_effects": "Image zoom on hover (scale 1.05, duration 0.6s). Buttons should have an underline expansion or subtle lift.",
+    "micro_interactions": "Floating pizza slice or flower stickers that follow scroll slightly (parallax)."
+  },
+  "image_assets": {
+    "hero_pizza": "https://images.unsplash.com/photo-1593504049359-74330189a345?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwxfHxnb3VybWV0JTIwcGl6emElMjBtb29keSUyMGxpZ2h0aW5nfGVufDB8fHx8MTc4MTI3NDIyNnww&ixlib=rb-4.1.0&q=85",
+    "pizza_two": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwyfHxnb3VybWV0JTIwcGl6emElMjBtb29keSUyMGxpZ2h0aW5nfGVufDB8fHx8MTc4MTI3NDIyNnww&ixlib=rb-4.1.0&q=85",
+    "nightlife_friends": "https://images.unsplash.com/photo-1681641095463-b4d3693a0ee3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwxfHxmcmllbmRzJTIwbGF1Z2hpbmclMjBjb2NrdGFpbHMlMjBuaWdodGxpZmV8ZW58MHx8fHwxNzgxMjc0MjI2fDA&ixlib=rb-4.1.0&q=85",
+    "nightlife_dj": "https://images.unsplash.com/photo-1541126274323-dbac58d14741?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwyfHxsaXZlJTIwbXVzaWMlMjBkaiUyMHBhcnR5JTIwY3Jvd2R8ZW58MHx8fHwxNzgxMjc0MjI2fDA&ixlib=rb-4.1.0&q=85",
+    "cocktail_negroni": "https://images.unsplash.com/photo-1586338211598-e2d64cf97e28?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwxfHxuZWdyb25pJTIwY29ja3RhaWwlMjBtb29keXxlbnwwfHx8fDE3ODEyNzQyMjZ8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "ui_components": {
+    "buttons": "Flat, sharp edges or subtle 4px radius. Primary action in Tomato Red (#FF3B22) with white text. Hover state must increase brightness and translate-y-1.",
+    "cards": "Cardless approach or 1px border (#2E2C2A) with no background, allowing the dark theme to breathe.",
+    "forms": "Use Shadcn customized. Transparent backgrounds for inputs with solid bottom border, or soft dark fills (#1A1918) with focus rings in Tomato Red.",
+    "stickers": "Absolute positioned, rotation slightly skewed. Use the playful script font (Caveat) and bright yellow/pink colors to inject 'Funny/Student' vibe into the editorial layout."
+  },
+  "sections": [
+    {
+      "name": "Navigation",
+      "style": "Fixed, Crystal Glassmorphism (backdrop-blur-xl, bg-[#0D0C0B]/60, border-b border-white/10). Minimal links. 'Book a Table' CTA in Tomato Red."
+    },
+    {
+      "name": "Hero Section",
+      "layout": "Cinematic visual impact. Full viewport height. Background image (hero_pizza) with a dark gradient overlay (from-black/80 via-black/40 to-transparent).",
+      "content": "Massive H1 'DAHLIA MILANO' overlapping the image. Playful script 'Ciao Bella!' floating as a sticker. Subtitle: 'This is not just a pizza restaurant. This is the coolest place in the city.'",
+      "interaction": "Scroll down indicator with pulsing animation."
+    },
+    {
+      "name": "Marquee Divider",
+      "layout": "Full width, zero padding.",
+      "content": "Continuous scrolling text (react-fast-marquee) reading 'APERITIVO • DJ SETS • PIZZA NAPOLETANA • MILANO NO. 1' in Bebas Neue, text-[#FF3B22] outline or solid.",
+      "speed": "Fast and energetic."
+    },
+    {
+      "name": "Signature Pizza Showcase",
+      "layout": "Asymmetric Bento Grid (Tetris Mode).",
+      "content": "Left: Large vertical image (pizza_two) spanning 2 rows. Right: Menu highlights in raw text with prices. Use hovering image reveals for menu items. 'Student-friendly but not cheap-looking' aesthetic.",
+      "stickers": "Add a 'Buonissimo!' script sticker over the pizza image."
+    },
+    {
+      "name": "Bar & Drinks Experience",
+      "layout": "Editorial split. 60% text/typography, 40% imagery.",
+      "content": "Focus on the Negroni image (cocktail_negroni). Dark, moody. 'Nights that turn into mornings.' Highlight cocktail specials and party atmosphere."
+    },
+    {
+      "name": "Events & Nightlife",
+      "layout": "Overlapping collage layout breaking the grid.",
+      "content": "Images of nightlife (nightlife_friends, nightlife_dj). Schedule of events: 'Thursday: Student Night', 'Friday: International DJs', 'Saturday: Sports & Beats'.",
+      "interaction": "Parallax scroll on the images. High contrast text."
+    },
+    {
+      "name": "Social Proof & Reservation",
+      "layout": "Two-column grid. Left: Social proof / Instagram styled text 'They say we are crazy. We say we are Dahlia.' Right: Reservation form.",
+      "form_details": "Frontend only. Shadcn form components (Date, Time, Guests). On submit -> Sonner Toast 'Table booked! See you at the party.'",
+      "testing": "MUST include data-testid='reservation-submit-btn'."
+    },
+    {
+      "name": "Footer",
+      "layout": "Massive padding (py-32). Darkest background (#000000).",
+      "content": "Giant brand typography 'DAHLIA' taking up 80vw. Links to socials, address in Milano. Footer must feel premium and memorable."
+    }
+  ],
+  "instructions_to_main_agent": [
+    "Use standard JavaScript (JSX), NOT TypeScript.",
+    "Implement Lenis for smooth scrolling in the main layout.",
+    "Use Framer Motion for text reveals and image scale-in on scroll.",
+    "Use react-fast-marquee for the marquee divider.",
+    "Do NOT use standard card components; build custom bento layouts using HTML/Tailwind.",
+    "Adhere strictly to the color palette. No purple/violet gradients.",
+    "Include 'data-testid' on all interactive elements (buttons, inputs, links).",
+    "Use lucide-react for icons.",
+    "Ensure all images have alt tags and are optimized with object-cover.",
+    "Do NOT use generic restaurant templates. Focus on editorial typography (Bebas Neue + Cormorant Garamond) combined with raw, moody imagery."
+  ]
+}
